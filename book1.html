@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inter Urban</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  
+  <!--banner-->
+  <section id="banner">
+        <div class="bg-color">
+          <header id="header">
+            <div class="container">
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html/#about">About</a>
+                <a href="index.html/#event">Event</a>
+                <a href="index.html/#menu-list">Menu</a>
+                <a href="book1.html">Book a table</a>
+              </div>
+              <!-- Use any element to open the sidenav -->
+              <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+            </div>
+          </header>
+          <div class="container">
+            <div class="row">
+              <div class="inner text-center">
+                <h1 class="logo-name">Inter-Urban</h1>
+                <h2>Food to fit your lifestyle & health.</h2>
+                <p>Mumbai-Delhi-Rohtak</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / banner -->
+  <div class = "container">  
+  <form action="booking.php" method = "post" class = "contactForm">
+    
+    <div class="form-group">
+    
+      <label for="cname">name:</label>
+      <input type="text" class="form-control" id="cname" name = "cname">
+    
+      <label for="email">Email id:</label>
+      <input type="email" class="form-control" id="email" name = "email">
+    
+    <div class="form-group">
+      <label for="phone">Phone number:</label>
+      <input type="int" class="form-control" id="phone" name="phone">
+
+    <div class="form-group">
+      <label for="people">People:</label>
+      <input type="int" class="form-control" id="people" name="people">
+    
+    <div class="form-group">
+      <label for="phone">Date:</label>
+      <input type="text" class="form-control" id="date" name="date">
+    
+    <div class="form-group">
+      <label for="time">Time:</label>
+      <input type="text" class="form-control" id="time" name="time">
+      
+  </div>
+  <input name = "submit" type= "submit" value="submit" class="btn btn-lg btn-primary btn-block">
+  </form>
+  </div>
+</div>
+  
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+ </body>
+</html>
